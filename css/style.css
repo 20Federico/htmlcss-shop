@@ -6,6 +6,10 @@
 
 /* tag */
 
+ul{
+    list-style: none;
+}
+
 /* id */
 
 /* classi */
@@ -15,8 +19,13 @@
     margin: 50px auto;
 }
 
-.product{
+.product-container{
     width: 33%;
+    position: relative;
+    display: inline-block;
+}
+
+.product{
     position: relative;
 }
 
@@ -69,4 +78,26 @@
 .label{
     left: 40px;
     background-color: teal;
+}
+
+.brand{
+    font-size: 13px;
+    color: rgb(37, 37, 37);
+}
+
+.product-name{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.price{
+    font-size: 13px;
+}
+
+.new-price{
+    color: red;
+}
+
+.old-price{
+    text-decoration: line-through;
 }
