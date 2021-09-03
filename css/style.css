@@ -81,6 +81,10 @@ ul{
     background-color: teal;
 }
 
+.label.no-discount{
+    left: 0;
+}
+
 /* product description */
 
 .brand{
