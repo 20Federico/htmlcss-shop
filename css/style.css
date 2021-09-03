@@ -10,14 +10,14 @@ ul{
     list-style: none;
 }
 
-/* id */
-
 /* classi */
 
 .container{
     width: 60%;
     margin: 50px auto;
 }
+
+/* product */
 
 .product-container{
     width: 33%;
@@ -42,6 +42,7 @@ ul{
     z-index: -1;
 }
 
+/* labels */
 
 .like{
     width: 40px;
@@ -80,6 +81,8 @@ ul{
     background-color: teal;
 }
 
+/* product description */
+
 .brand{
     font-size: 13px;
     color: rgb(37, 37, 37);
@@ -96,6 +99,7 @@ ul{
 
 .new-price{
     color: red;
+    font-weight: 600;
 }
 
 .old-price{
